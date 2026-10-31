@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2026-10-31-16-07-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	email_dest	suppress_for	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	set[string]	interval	string	string	string	double	double
+1499449936.503593	-	-	-	-	-	-	-	-	-	NmapSS::SYN_Scan	SYN scan, previous notices: 0	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499449964.075851	-	-	-	-	-	-	-	-	-	NmapSS::SYN_Scan	SYN scan, previous notices: 1	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499450085.165615	-	-	-	-	-	-	-	-	-	NmapST::Connect_Scan	Connect scan, previous notices: 0	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499450111.395751	-	-	-	-	-	-	-	-	-	NmapST::Connect_Scan	Connect scan, previous notices: 1	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499450137.707464	-	-	-	-	-	-	-	-	-	NmapST::Connect_Scan	Connect scan, previous notices: 2	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499450165.462658	-	-	-	-	-	-	-	-	-	NmapST::Connect_Scan	Connect scan, previous notices: 3	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499450887.864712	-	-	-	-	-	-	-	-	-	NmapSS::SYN_Scan	SYN scan, previous notices: 2	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499451136.316414	-	-	-	-	-	-	-	-	-	NmapSU::UDP_Scan	UDP scan, previous notices: 0	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499451138.864862	-	-	-	-	-	-	-	-	-	NmapSU::UDP_Scan	UDP scan, previous notices: 1	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499451175.523880	-	-	-	-	-	-	-	-	-	NmapSU::UDP_Scan	UDP scan, previous notices: 2	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499451269.754554	-	-	-	-	-	-	-	-	-	NmapSU::UDP_Scan	UDP scan, previous notices: 3	-	172.16.0.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+#close	2026-10-31-16-07-09
